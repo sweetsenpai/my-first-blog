@@ -20,12 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'ge%6cz6!tr(g_f$-_&!862xc*j_c(-1p=213k4$0ei+yc@o$z*'
+SECRET_KEY = '60lr-od5pcs5g2p8bo(((myzu&@%@c@5+-i+el$g*w%x4t-yci'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS =  ['127.0.0.1', 'sweetsenpai.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '<Саша>.pythonanywhere.com']
 
 
 # Application definition
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ru-ru'
 
-TIME_ZONE = 'Asia/Tokyo'
+TIME_ZONE = 'Europe/Moscow'
 
 USE_I18N = True
 
