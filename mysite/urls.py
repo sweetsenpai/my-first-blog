@@ -17,5 +17,5 @@ from django.conf.urls import url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^admin/', SweetSenpai.pythonanywhere.com/admin.site.urls),
+    url(SweetSenpai.pythonanywhere.com/admin, admin.site.urls),
 ]
